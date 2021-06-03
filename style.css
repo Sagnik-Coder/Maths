@@ -263,4 +263,6 @@ button:active{
     .mess{
         width: 80%;
     }
+    .nav-bar{
+        display: none;
 }
