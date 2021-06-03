@@ -1,1 +1,2 @@
-# Maths is a Website Made by **Sagnik Sengupta**
+# Maths 
+A Website Made by **Sagnik Sengupta**
