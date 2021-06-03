@@ -265,8 +265,10 @@ button:active{
     }
     .nav-bar{
         padding: 0.5em;
+        
     }
     a{
-        margin-right: 0.5em;
+        margin-right: 0.1em;
+        font-size: 10px;
     }
 }
