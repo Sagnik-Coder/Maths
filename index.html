@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Maths by Sagnik Sengupta</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <nav>
+            <a href="#home" class="home">Home</a>
+            <a href="#calculations" class="calculation">Concept</a>
+            <a href="#about" class="about">About</a>
+            <a href="#contact" class="contact">Contact</a>
+        </nav>
+    </div>
+    <div id="home">
+        <div class="text">
+            <h1 class="heading">Maths</h1>
+            <h3 class="tagline">"Pure mathematics is, in its way, the poetry of logical ideas."<br>-Albert Einstein</h3>
+        </div>
+    </div>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="https://images.unsplash.com/photo-1600004853937-857d1070d505?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80"></div>
+    <div id="calculations">
+        <a target="_blank" href="https://sagnik-coder.github.io/Spiral-Creator/">
+            <div class="num-ang">
+                <img class="spiral" src="img\num-spiral.svg" alt="logo">
+                <p>Sprial Creator</p>
+            </div>
+        </a>
+        <a target="_blank" href="https://sagnik-coder.github.io/Calculator/">
+            <div class="num-ang">
+                <img class="spiral" src="img\num-spiral.svg" alt="logo">
+                <p>Calculator</p>
+            </div>
+        </a>
+    </div>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="https://images.unsplash.com/photo-1579548122080-c35fd6820ecb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"></div>
+    <div id="about">
+        <div class="ab-im">
+            <img class="img-about" src="https://images.unsplash.com/photo-1587049479964-c5618ddf1e9c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="">
+        </div>
+        <div class="about-text">
+            <h2>ABOUT</h2>
+            <div class="s-t">
+                <p class="about">This Website is Created by SAGNIK SENGUPTA, for enhanching and developing the mathematical concept of everyone. The typical thought that Maths is very boring is actually very wrong, people think that because they are represented mathematics in a very formal and boring way other than if they were introduced mathematics in a very abstract and enjoyable way it wouldn't make them feel that.So this is the exact reason of making this Website.</p>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="img-contact">
+            <img src="" alt="">
+        </div>
+        <div class="details">
+            <div class="inputs">
+                <input type="text" placeholder="Name" id="name">
+                <input type="number" placeholder="Mobile No." id="mobile-number">
+                <input type="email" placeholder="Email" id="email">
+                <input type="number" placeholder="Age" id="age">
+                <textarea class="mess" type="text" placeholder="Message" id="message"></textarea>
+            </div>
+            <button id="btn" onclick=writeUserData()>Submit</button>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="lib\parallax.js"></script>
+    <script src="lib\firebase.js"></script>
+    <script src="lib\main.js"></script>
+    
+
+</body>
+</html>
